@@ -27,6 +27,10 @@ a.navbar-brand img {
     margin-right: 60% !important;
 }
 
+#navbarText{
+    z-index: 99999999999;
+}
+
 .navbar-toggler {
     border: none;
 }
