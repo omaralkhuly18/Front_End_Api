@@ -27,7 +27,7 @@ a.navbar-brand img {
     margin-right: 60% !important;
 }
 
-#navbarText{
+#navbarText {
     z-index: 99999999999;
 }
 
@@ -187,8 +187,12 @@ span.navbar-text {
     overflow: hidden;
 }
 
+.card_items:not(:first-child){
+    margin-top: 1%;
+}
+
 .header {
-    padding: 20px;
+    padding: 9px;
     text-align: center;
     background-color: #f0f0f0;
     display: flex;
@@ -197,7 +201,7 @@ span.navbar-text {
 
 .header img {
     width: 65px;
-    height: 58px;
+    height: 52px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
@@ -212,7 +216,20 @@ span.navbar-text {
     margin-bottom: 10px;
 }
 
+h5.titel_site ,
+p.description_site{
+    text-align: right;
+}
+
 .content p {
     font-size: 14px;
     line-height: 1.6;
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .25;
 }
